@@ -1,0 +1,21 @@
+Ticket_ID,Date_Raised,Category,Priority,Description,Assigned_To,Status,Date_Resolved,Resolution_Time_Hours,SLA_Target_Hours,SLA_Breached,Root_Cause,Resolution_Notes
+INC-001,2024-01-08,Hardware,High,Laptop screen not displaying — user unable to work,Tier1-Agent-A,Resolved,2024-01-08,3,4,No,Faulty display cable,Replaced display cable on-site
+INC-002,2024-01-09,Network,Critical,Entire floor lost network connectivity,Tier2-Agent-B,Resolved,2024-01-09,2,2,No,Switch port failure,Replaced faulty switch port
+INC-003,2024-01-09,Software,Medium,Microsoft Teams not launching after update,Tier1-Agent-A,Resolved,2024-01-11,28,8,Yes,Corrupt update cache,Cleared Teams cache and reinstalled
+INC-004,2024-01-10,Access,High,User locked out of Active Directory account,Tier1-Agent-C,Resolved,2024-01-10,1,4,No,Failed login attempts,Reset AD account and unlocked
+INC-005,2024-01-11,Hardware,Medium,Printer offline — department unable to print,Tier1-Agent-B,Resolved,2024-01-14,48,8,Yes,Printer driver conflict,Reinstalled printer drivers
+INC-006,2024-01-12,Network,High,VPN connection dropping every 30 minutes,Tier2-Agent-A,Resolved,2024-01-13,18,4,Yes,MTU size mismatch,Adjusted MTU settings on VPN gateway
+INC-007,2024-01-15,Software,Low,Excel formula not calculating correctly,Tier1-Agent-C,Resolved,2024-01-17,24,24,No,Automatic calculation disabled,Enabled automatic calculation in Excel settings
+INC-008,2024-01-15,Hardware,Critical,Server room UPS alarm triggered,Tier3-Agent-A,Resolved,2024-01-15,1,1,No,UPS battery low,Replaced UPS battery unit
+INC-009,2024-01-16,Access,Medium,New employee cannot access shared drive,Tier1-Agent-A,Resolved,2024-01-18,36,8,Yes,Onboarding process delay,Added user to correct AD security group
+INC-010,2024-01-17,Software,High,CRM system returning 500 error for all users,Tier2-Agent-B,Resolved,2024-01-17,4,4,No,Database connection timeout,Restarted application service and connection pool
+INC-011,2024-01-18,Hardware,Medium,Mouse and keyboard unresponsive,Tier1-Agent-B,Resolved,2024-01-18,2,8,No,USB hub failure,Replaced USB hub
+INC-012,2024-01-19,Network,High,Slow internet speeds reported across office,Tier2-Agent-A,Resolved,2024-01-22,56,4,Yes,ISP throttling during peak hours,Escalated to ISP — bandwidth upgrade arranged
+INC-013,2024-01-22,Access,High,Manager cannot access finance system after role change,Tier2-Agent-B,Resolved,2024-01-24,30,4,Yes,Role permissions not updated,Updated role-based access permissions in finance system
+INC-014,2024-01-23,Software,Medium,Outlook keeps crashing on Windows 11,Tier1-Agent-C,Resolved,2024-01-25,20,8,Yes,Incompatible add-in,Disabled conflicting Outlook add-in
+INC-015,2024-01-24,Hardware,Low,Monitor flickering occasionally,Tier1-Agent-A,Resolved,2024-01-29,96,24,Yes,Loose display port cable,Secured display port connection
+INC-016,2024-01-25,Network,Critical,Core router unresponsive — full site outage,Tier3-Agent-A,Resolved,2024-01-25,3,2,Yes,Firmware bug triggered failover,Rolled back router firmware to stable version
+INC-017,2024-01-26,Access,Low,User requesting additional software license,Tier1-Agent-B,Resolved,2024-01-30,72,24,Yes,License procurement delay,Procured and assigned additional license
+INC-018,2024-01-29,Software,High,Backup job failing nightly for 3 days,Tier2-Agent-A,Resolved,2024-01-30,12,4,Yes,Backup storage full,Cleared old backup snapshots and expanded storage quota
+INC-019,2024-01-30,Hardware,Medium,Docking station not recognised by laptop,Tier1-Agent-C,Resolved,2024-01-31,8,8,No,Driver update required,Updated docking station firmware and drivers
+INC-020,2024-01-31,Network,High,Wireless access point dropped in meeting room,Tier2-Agent-B,Resolved,2024-02-01,14,4,Yes,AP overheating due to poor ventilation,Relocated AP and improved ventilation
